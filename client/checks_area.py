@@ -6,7 +6,7 @@ import time
 
 def cheking_area(points, text='Area', dur = 2, time_on_point = 0.5):
 
-    #points = [x1, y1, x2, y2]
+    # points = [x1, y1, x2, y2]
     x1, x2 = min(points[0], points[2]), max(points[0], points[2])
     y1, y2 = min(points[1], points[3]), max(points[1], points[3])
 
